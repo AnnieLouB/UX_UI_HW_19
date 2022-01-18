@@ -19,13 +19,18 @@ ul {
     list-style-type: none;
 }
 
+a {
+  display: flex;
+}
+
 /* ul li {
     padding: 6px 0; */
-}
+
 
  ul li a {
         position: relative;
-        display: block;
+        display: flex;
+        /* display: block; */
         text-decoration: none;
         font-family: "Lora";
         font-size: 2rem;;
@@ -48,7 +53,7 @@ ul {
     transform-origin: right;
   }
 
-  .ative:after {
+  .active:after {
     position: absolute;
     content: "";
     width: 100%;
@@ -122,6 +127,10 @@ ul li a:hover::after {
     width: auto;
     padding: 0px 40px;
     color: #022E40;
+    margin-bottom: 100px;
+    border-bottom: 8px solid #B1CABC;
+  
+    
   }
   p {
     font-family:'Work Sans';
@@ -134,13 +143,19 @@ ul li a:hover::after {
         font-style:normal;
         font-size:55px;
         font-weight: 140;
+        margin-top: -90px;
+        
+        
   }
   
   h2 {
       font-family:'Lora';
       font-style:normal;
       font-size:26px;
+      color: #022E40;
       font-weight: 140;
+      margin-bottom: 30px;
+      margin-top:auto;
   }
   
 /* button */
@@ -154,33 +169,36 @@ ul li a:hover::after {
     grid-template-areas:
     "hover"
     "disabled";
-    height: 100px;
-    padding: 40px;
-    padding-top: 0;
+  
+   
   }
   .hoverMe {
     grid-area: hover;
+    text-decoration: none;
     background-color:#DFC9CC;
     color:#022E40;
     font-family: "Merriweather";
     width: 250px;
     text-align: center;
+    justify-items:center;
     font-size: 20px;
-    height: 50px;
+    height: fit-content;
     border-radius: 8px;
     transition: 0.3s;
+    padding: 20px;
+    border-style: solid;
+    border-width: thin;
+    display: block;
+    margin-top: 190px;
+  
   }
   /* active state */
   .hoverMe:hover {
     background-color:#FFF4F6;
-  }
-.button {
-    background-color: #DFC9CC;
-    padding: 30px 50px;
-    color: #022E40;
-    text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 26px;
-    border-radius: 8px;
-    }
+    border-style: solid;
+    border-width: thin;
+   
+  }
+
+ .card-mb-3
