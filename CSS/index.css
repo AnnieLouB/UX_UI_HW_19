@@ -136,7 +136,7 @@ ul li a:hover::after {
     font-family:'Work Sans';
     font-style:normal;
     font: weight 140px;
-    font-size:20px;
+    font-size:26px;
   }
   h1 {
         font-family:'Lora';
@@ -149,11 +149,11 @@ ul li a:hover::after {
   }
   
   h2 {
-      font-family:'Lora';
-      font-style:normal;
+    font-family:'Lora';
+    font-weight:300;
+    font-size:40px;
       font-size:26px;
       color: #022E40;
-      font-weight: 140;
       margin-bottom: 30px;
       margin-top:auto;
   }
@@ -161,11 +161,11 @@ ul li a:hover::after {
 /* button */
 
   .grid {
-    display: grid;
+    /* display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     justify-items:center;
-    color:#022E40;
+    color:#022E40; */
     grid-template-areas:
     "hover"
     "disabled";
@@ -201,4 +201,32 @@ ul li a:hover::after {
    
   }
 
- .card-mb-3
+
+  .affeccasestudy {
+    align-items: left;
+    display: flex; 
+    background-color: #B1CABC;
+    border-bottom: 8px solid  #2C3C5A;
+  }
+
+  .cover {
+    object-fit: cover;
+    width: 500px;
+    height: 550px;
+  }
+  .affectext {
+    margin:20px;
+    padding: 20px;
+    text-align: left;
+  }
+
+  .hoverMeaffec {
+    padding-left: 20px;
+  }
+  .container {
+    align-items: left;
+    display: flex; 
+
+  }
+   
+  
