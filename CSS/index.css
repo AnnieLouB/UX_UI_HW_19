@@ -70,12 +70,14 @@ a {
    
 ul li a:hover {
   color: #95a5a6;
+  text-decoration: none;
 }
 
 ul li a:hover::after {
   transition:transform 0.5s;
   transform: scaleX(1);
   transform-origin: left;
+  text-decoration: none;
 }
 
 .nav {
